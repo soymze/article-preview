@@ -1,8 +1,8 @@
 .share-options {
     position: absolute; /* Baloncuk stilinde konumlandırmak için */
-    top: 24.5rem; /* İhtiyaca göre konumlandırma */
-    right: 31.25rem; /* İhtiyaca göre konumlandırma */
-    width: 16rem;
+    top: 8rem; /* İhtiyaca göre konumlandırma */
+    right: -5rem; /* İhtiyaca göre konumlandırma */
+    width: 20rem;
     height: auto; /* Yüksekliği içeriğe göre otomatik ayarla */
     display: flex;
     background: hsl(217, 19%, 35%); /* Arka plan rengi */
@@ -35,8 +35,8 @@
   }
   
   .social-icon {
-    width: 24px;
-    height: 24px;
+    width: 14px;
+    height: 14px;
     margin-right: 1rem; /* İkonlar arasındaki boşluk */
   }
 
