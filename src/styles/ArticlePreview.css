@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.article-preview {
+    display: flex;
+    width: 45%;
+    height: 20rem;
+    margin: auto;
+    margin-top: 16rem;
+    border-radius: 15px;
+  }
+  
+  .article-preview h1 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    margin-right: 6rem;
+    text-align: left;
+  }
+  
+  .description {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 3rem;
+    margin-right: 6rem;
+    word-spacing: 0.1rem;
+    line-height: 1.2rem;
+  }
+
+  .article-preview > .img-container > img{
+    width: 22rem;
+    height: 20rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+   
+  body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .content-container{
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .article-preview > .content-container > .footer > img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+  }
+
+  .footer{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 2rem;
+  }
+
+  .author{
+    margin-top: 0.2rem;
+    font-weight: 700;
+  }
+
+  .date{
+    margin-top: -0.3rem;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .nameDate{
+    margin-left: -1.3rem;
+  }

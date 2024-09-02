@@ -1,0 +1,32 @@
+.share-options {
+    position: absolute; /* Baloncuk stilinde konumlandırmak için */
+    top: 26rem; /* İhtiyaca göre konumlandırma */
+    right: 32rem; /* İhtiyaca göre konumlandırma */
+    width: 16rem;
+    height: auto; /* Yüksekliği içeriğe göre otomatik ayarla */
+    display: flex;
+    background: hsl(217, 19%, 35%); /* Arka plan rengi */
+    border-radius: 8px; /* Köşeleri yuvarlama */
+    padding: 10px; /* İçerik için boşluk */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Gölgelendirme */
+    flex-direction: row;
+    align-items: center; /* İçeriği ortala */
+    color: white;
+  }
+  
+  .text {
+    font-weight: bold;
+    margin-right: 2rem; /* Metin ile ikonlar arasındaki boşluk */
+    color: rgb(243, 0, 0);
+  }
+  
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 1.5rem; /* İkonlar arasındaki boşluk */
+  }
+  
+  .share-options img:nth-of-type(3) {
+    margin-right: 20px; /* Üçüncü ikon için ek boşluk */
+  }
+  

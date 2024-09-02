@@ -1,0 +1,24 @@
+.share-button {
+    background-color: hsl(210, 46%, 95%); /* Arka plan rengini şeffaf yapar */
+    border: none; /* Kenarlıkları kaldırır */
+    padding: 10px; /* İç boşluk */
+    cursor: pointer; /* Fare işaretçisini pointer yapar */
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+  }
+  
+  .share-button svg {
+    width: 24px; /* SVG'nin genişliği */
+    height: 24px; /* SVG'nin yüksekliği */
+    fill: #6E8098; /* SVG'nin rengi */
+    margin: auto;
+  }
+
+  .share-button:hover {
+    background-color: white;
+  }
