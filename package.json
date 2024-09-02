@@ -2,7 +2,7 @@
   "name": "article-preview",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://66d5b34f04529c05ff7ec923--lucent-marigold-1ce89f.netlify.app/",
+  "homepage": "https://soymze.github.io/article-preview/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
