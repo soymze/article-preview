@@ -9,9 +9,9 @@ const ShareOptions = () => {
   return (
     <div className="share-options">
       <p className='text'>SHARE</p>
-      <img src={facebook} alt="Facebook" className="social-icon" />
-      <img src={pinterest} alt="Pinterest" className="social-icon" />
-      <img src={twitter} alt="Twitter" className="social-icon" />
+      <img src={facebook} alt="Facebook" id="facebook-btn" className="social-icon" />
+      <img src={pinterest} alt="Pinterest" id="pinterest-btn" className="social-icon" />
+      <img src={twitter} alt="Twitter" id="twitter-btn" className="social-icon" />
     </div>
   );
 };
