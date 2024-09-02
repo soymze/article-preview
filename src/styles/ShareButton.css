@@ -9,7 +9,7 @@
     width: 40px;
     height: 40px;
     margin-top: 0.5rem;
-    margin-left: 2rem;
+    margin-left: 9rem;
   }
   
   .share-button svg {
@@ -20,5 +20,9 @@
   }
 
   .share-button:hover {
-    background-color: white;
+    background-color: #6E8098;
   }
+
+  .share-button:hover svg path {
+    fill: white;
+}

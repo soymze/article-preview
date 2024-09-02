@@ -1,7 +1,7 @@
 .share-options {
     position: absolute; /* Baloncuk stilinde konumlandırmak için */
-    top: 26rem; /* İhtiyaca göre konumlandırma */
-    right: 32rem; /* İhtiyaca göre konumlandırma */
+    top: 24.5rem; /* İhtiyaca göre konumlandırma */
+    right: 31.25rem; /* İhtiyaca göre konumlandırma */
     width: 16rem;
     height: auto; /* Yüksekliği içeriğe göre otomatik ayarla */
     display: flex;
@@ -11,22 +11,51 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Gölgelendirme */
     flex-direction: row;
     align-items: center; /* İçeriği ortala */
-    color: white;
   }
+
+  .share-options::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Share options kutusunun hemen altına yerleştir */
+    left: 50%; /* Üçgeni yatay olarak ortala */
+    transform: translateX(-50%); /* Yatay olarak ortalamak için kaydır */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid hsl(217, 19%, 35%); /* Arka plan rengi ile aynı renkte */
+}
   
   .text {
     font-weight: bold;
-    margin-right: 2rem; /* Metin ile ikonlar arasındaki boşluk */
-    color: rgb(243, 0, 0);
+    margin-right: 1rem; /* Metin ile ikonlar arasındaki boşluk */
+    color: hsl(212, 23%, 69%);
+    margin-left: 2rem;
+    letter-spacing: 0.5rem;
   }
   
   .social-icon {
     width: 24px;
     height: 24px;
-    margin-right: 1.5rem; /* İkonlar arasındaki boşluk */
+    margin-right: 1rem; /* İkonlar arasındaki boşluk */
+  }
+
+  .share-options img:nth-child(3):hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(23%) sepia(99%) saturate(3496%) hue-rotate(357deg) brightness(92%) contrast(98%);
+  }
+  
+  .share-options img:nth-child(2):hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(40%) sepia(95%) saturate(744%) hue-rotate(176deg) brightness(89%) contrast(89%);
+  }
+  
+  .share-options img:last-child:hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(47%) sepia(35%) saturate(5685%) hue-rotate(202deg) brightness(93%) contrast(94%);
   }
   
   .share-options img:nth-of-type(3) {
-    margin-right: 20px; /* Üçüncü ikon için ek boşluk */
+    margin-right: 0.2rem; /* Üçüncü ikon için ek boşluk */
   }
   
